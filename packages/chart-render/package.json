@@ -40,15 +40,17 @@
     ]
   },
   "dependencies": {
-    "less": "^3.0.0",
     "@ant-design/icons": "^4.2.2",
     "@ant-design/plots": "^1.0.9",
     "ahooks": "^3.4.1",
+    "antd": "4.x || 5.x",
     "classnames": "^2.3.1",
     "formRenderV1": "npm:form-render@^1.4.13",
+    "less": "^3.0.0",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0",
     "zustand": "^4.0.0-rc.1"
   },
-  "devDependencies": {},
   "peerDependencies": {
     "antd": "4.x",
     "react": ">=16.8.0"

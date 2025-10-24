@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
@@ -9,6 +8,8 @@
     "sourceMap": true,
     "baseUrl": "./",
     "strict": true,
+    "lib": ["es2017", "dom"],
+    "target": "es2017",
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]

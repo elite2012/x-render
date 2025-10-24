@@ -64,6 +64,7 @@
   },
   "devDependencies": {
     "deep-equal": "^2.0.3",
+    "less": "^4.4.2",
     "rollup-plugin-copy": "^3.4.0"
   },
   "peerDependencies": {
